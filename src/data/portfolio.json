@@ -64,7 +64,7 @@
       "slug": "website-portfolio",
       "description": "My personal website portfolio built with modern technologies and interactive AI.",
       "longDescription": "A high-fidelity personal portfolio designed to showcase my journey as an IT System Engineer and Software Engineer. Featuring an integrated AI sounding board, immersive 3D animations, and a sleek glassmorphic design system. Built to provide a unique and professional experience for visitors.",
-      "technologies": ["Next.js", "React", "Tailwind CSS", "Three.js", "OpenAI"],
+      "technologies": ["Next.js", "React", "Tailwind CSS", "Three.js", "GroqAI"],
       "github": "https://github.com/Bimasanjaya0704/portofolio_chat_ai",
       "link": "https://bimasanjaya.com",
       "strengths": ["AI Integration", "Modern UI/UX", "Interactive Animations"],  
