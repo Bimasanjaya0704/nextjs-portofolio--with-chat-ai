@@ -5,7 +5,6 @@ import portfolioData from "@/data/portfolio.json";
 import {
   FiUser,
   FiCode,
-  FiCpu,
   FiArrowLeft,
   FiBriefcase,
   FiCalendar,

@@ -1,7 +1,6 @@
 "use client";
 
 import { Section } from "./section";
-import portfolioData from "@/data/portfolio.json";
 import Image from "next/image";
 
 export const AboutSection = () => {

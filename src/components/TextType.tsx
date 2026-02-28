@@ -5,7 +5,6 @@ import {
   useEffect,
   useRef,
   useState,
-  createElement,
   useMemo,
   useCallback,
 } from "react";
@@ -180,6 +179,7 @@ const TextType = ({
     isVisible,
     reverseMode,
     variableSpeed,
+    getRandomSpeed,
     onSentenceComplete,
   ]);
 
