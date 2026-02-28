@@ -35,8 +35,8 @@
       "description": [
         "Developed a robotic system, integrating backend solutions to support hardware functionality.",
         "Developed tools to analyze hardware performance and support research on main hardware systems.",
-        "Applied Object-Oriented Programming (OOP) principles using C# and Python for backend and robotic systems.",
-        "Collaborated with cross-functional teams to integrate software solutions with robotics hardware systems"
+        "Applied Object Oriented Programming (OOP) principles using C# and Python for backend and robotic systems.",
+        "Collaborated with cross functional teams to integrate software solutions with robotics hardware systems"
       ],
       "skills": ["C#", "Python", "OOP"]
     },
@@ -49,7 +49,7 @@
     "description": [
       "Worked on the development of the company's website, utilizing React JS and Tailwind CSS to create a responsive and visually appealing user interface.",
       "Developed website interface, ensuring the implementation matched the provided design specifications.",
-      "Collaborated with backend teams to ensure seamless integration of front-end interfaces with server-side functionalities.",
+      "Collaborated with backend teams to ensure seamless integration of frontend interfaces with server-side functionalities.",
       "Focused on delivering visually compelling, functionally optimized, and responsive user interfaces."
     ],
     "skills": ["C#", "Python", "OOP"]
@@ -63,10 +63,10 @@
       "role": "Fullstack Developer",
       "slug": "website-portfolio",
       "description": "My personal website portfolio built with modern technologies and interactive AI.",
-      "longDescription": "A high-fidelity personal portfolio designed to showcase my journey as an IT System Engineer and Software Engineer. Featuring an integrated AI sounding board, immersive 3D animations, and a sleek glassmorphic design system. Built to provide a unique and professional experience for visitors.",
+      "longDescription": "A high fidelity personal portfolio designed to showcase my journey as an IT System Engineer and Software Engineer. Featuring an integrated AI sounding board, immersive 3D animations, and a sleek glassmorphic design system. Built to provide a unique and professional experience for visitors.",
       "technologies": ["Next.js", "React", "Tailwind CSS", "Three.js", "GroqAI"],
-      "github": "https://github.com/Bimasanjaya0704/portofolio_chat_ai",
-      "link": "https://bimasanjaya.com",
+      "github": "https://github.com/Bimasanjaya0704/nextjs-portofolio--with-chat-ai",
+      "link": "https://bimasanjayaweb.vercel.app/",
       "strengths": ["AI Integration", "Modern UI/UX", "Interactive Animations"],  
       "strength_descriptions": [
         "The AI sounding board allows visitors to interact with an AI assistant, providing insights into my skills and experience in a conversational format.",
@@ -80,24 +80,43 @@
       "category": "Robotics System",
       "role": "Backend Developer",
       "slug": "flo-project",
-      "description": "Positive displacement liquid handler system with independent 8-channel control.",
-      "longDescription": "The FLO i8 PD is a positive displacement general purpose liquid handler. The project involved developing backend systems to control 8 channels independent in span, Z axis, and volume, featuring high-precision non-contact dispensing.",
+      "description": "Positive displacement liquid handler system with independent 8 channel control.",
+      "longDescription": "The FLO i8 PD is a positive displacement general purpose liquid handler. The project involved developing backend systems to control 8 channels independent in span, Z axis, and volume, featuring high precision non contact dispensing.",
       "technologies": ["C#", "Python", "OOP"],
       "link": "https://formulatrix.com/liquid-handling-systems/flo-automated-liquid-handling/", 
       "strengths": ["Robotics Control", "Precision Systems", "Backend Development"],
       "strength_descriptions": [
         "The system controls 8 independent channels for precise liquid handling.",
-        "High-precision non-contact dispensing ensures accuracy in handling sensitive liquids.",
+        "High precision non contact dispensing ensures accuracy in handling sensitive liquids.",
         "Backend systems were developed to support robust and scalable control of the robotics."
       ]
-    },{
+    },
+    {
       "id": "3",
+      "title": "Task Management System",
+      "category": "System Tools",
+      "role": "Backend Developer",
+      "slug": "task-management-system",
+      "description": "A system to manage and track tasks across multiple projects.",
+      "longDescription": "The Task Management System is a backend solution designed to handle task assignments, tracking, and reporting across multiple projects. It supports complex workflows and integrates with existing project management tools.",
+
+      "technologies": ["C#", "React", "OOP"],
+      "github": "https://github.com/Bimasanjaya0704/TaskManagementSystem", 
+      "strengths": ["Task Management", "Workflow Automation", "Fullstack Architecture"],
+      "strength_descriptions": [
+        "The system allows for efficient management and tracking of tasks across multiple projects, improving team productivity.",
+        "Workflow automation features streamline task assignments and progress tracking, reducing manual overhead.",
+        "Built with a fullstack architecture, the system integrates backend logic with a user friendly frontend interface for seamless user experience."
+      ]
+    },
+    {
+      "id": "4",
       "title": "Log Analyzer",
       "category": "System Tools",
       "role": "Backend Developer",
       "slug": "log-analyzer",
       "description": "Tools to analyze hardware performance and support research on main hardware systems.",
-      "longDescription": "Developed specialized internal tools for deep-dive analysis of hardware performance logs. These tools help identify root causes of system incidents and support ongoing research for main hardware system optimizations.",
+      "longDescription": "Developed specialized internal tools for deep dive analysis of hardware performance logs. These tools help identify root causes of system incidents and support ongoing research for main hardware system optimizations.",
       "technologies": ["Python", "C#"],
       "strengths": ["Performance Analysis", "Root Cause Identification", "Hardware Support"],
       "strength_descriptions": [
@@ -107,7 +126,7 @@
       ]
     },
     {
-      "id": "4",
+      "id": "5",
       "title": "Lesyuk",
       "category": "Web Application",
       "role": "Frontend Developer",
@@ -124,30 +143,30 @@
       ]
     },
     {
-      "id": "5",
+      "id": "6",
       "title": "Meeting Scheduler",
       "category": "Web Application",
       "role": "Fullstack Developer",
       "slug": "meeting-scheduler",
-      "description": "A user-friendly website designed to simplify organizing and managing meetings.",
-      "longDescription": "Meeting Scheduler allows users to easily schedule, reschedule, and coordinate meetings with colleagues or clients. Integrated with Firebase for real-time synchronization and secure data management, providing a smooth coordination experience.",
-      "technologies": ["Next.js", "Firebase", "Tailwind CSS"],
-      "github": "https://github.com/example/meeting-scheduler",
-      "strengths": ["Real-time Sync", "Fullstack Architecture", "User Management"],
+      "description": "A user friendly website designed to simplify organizing and managing meetings.",
+      "longDescription": "Meeting Scheduler allows users to easily schedule, reschedule, and coordinate meetings with colleagues or clients. Integrated with Firebase for real time synchronization and secure data management, providing a smooth coordination experience.",
+      "technologies": ["Next.js", "Firebase", "Kinde"],
+      "github": "https://github.com/Bimasanjaya0704/Meeting-scheduler-with-nextjs--and-kinde",
+      "strengths": ["Real time Sync", "Fullstack Architecture", "User Management"],
       "strength_descriptions": [
-        "Real-time synchronization ensures all users see the most up-to-date meeting information.",
+        "Realtime synchronization ensures all users see the most up to date meeting information.",
         "Fullstack architecture enables seamless integration of frontend and backend functionalities.",
         "User management features allow for secure and efficient handling of multiple user accounts."
       ]
     },
     {
-      "id": "6",
+      "id": "7",
       "title": "RingkasAJA",
       "category": "NLP Project",
       "role": "Fullstack Developer",
       "slug": "ringkas-aja",
       "description": "Text summarization project using the Maximum Marginal Relevance (MMR) method.",
-      "longDescription": "RingkasAJA is an NLP-focused project that provides users with concise and relevant summaries by eliminating unnecessary details from large text bodies using advanced MMR algorithms. It aims to improve reading efficiency through automated summarization.",
+      "longDescription": "RingkasAJA is an NLP focused project that provides users with concise and relevant summaries by eliminating unnecessary details from large text bodies using advanced MMR algorithms. It aims to improve reading efficiency through automated summarization.",
       "technologies": ["Python", "Flask", "Tailwind CSS", "NLP"],
       "github": "https://github.com/example/ringkas-aja",
       "strengths": ["NLP Implementation", "MMR Algorithm", "Python Backend"],
@@ -158,29 +177,29 @@
       ]
     },
     {
-      "id": "7",
+      "id": "8",
       "title": "App Melati",
       "category": "Mobile Application",
       "role": "Mobile Developer",
       "slug": "app-melati",
       "description": "Mobile application for understanding electric bicycle components and workings.",
-      "longDescription": "Melati App provides an in-depth mobile experience for users to learn about the mechanics and components of electric bicycles. It features interactive UI elements and educational content to guide users through complex systems.",
+      "longDescription": "Melati App provides an in depth mobile experience for users to learn about the mechanics and components of electric bicycles. It features interactive UI elements and educational content to guide users through complex systems.",
       "technologies": ["Flutter", "Dart"],
-      "strengths": ["Mobile UI Development", "Cross-platform Development", "Educational UX"],
+      "strengths": ["Mobile UI Development", "Cross platform Development", "Educational UX"],
       "strength_descriptions": [
         "Developed an intuitive and engaging mobile UI for educational content.",
-        "Cross-platform compatibility ensures the app works seamlessly on both iOS and Android.",
+        "Cross platform compatibility ensures the app works seamlessly on both iOS and Android.",
         "Educational UX design focuses on making complex topics accessible and easy to understand."
       ]
     },
     {
-      "id": "8",
+      "id": "9",
       "title": "Wawasan Edukasi",
       "category": "Web Application",
       "role": "Wordpress Developer",
       "slug": "wawasan-edukasi",
       "description": "Website dedicated to providing educational news and insights to a diverse audience.",
-      "longDescription": "A content-driven platform built to deliver the latest educational news, articles, and insights. Developed using WordPress and Elementor to ensure easy content management and a broad reach across different demographics.",
+      "longDescription": "A content driven platform built to deliver the latest educational news, articles, and insights. Developed using WordPress and Elementor to ensure easy content management and a broad reach across different demographics.",
       "technologies": ["WordPress", "Elementor"],
       "strengths": ["CMS Customization", "Content Strategy", "Web Design"],
       "strength_descriptions": [
@@ -190,20 +209,20 @@
       ]
     },
     {
-      "id": "9",
+      "id": "10",
       "title": "Juragan COD",
       "category": "Web Application",
       "role": "Frontend Developer",
       "slug": "juragan-cod",
-      "description": "Multi-tenant Laravel backend and React dashboards for e-commerce logistics.",
-      "longDescription": "Architected a multi-tenant Laravel backend with Role-Based Access Control (RBAC) to orchestrate complex e-commerce order and shipment logistics. Developed interactive React dashboards for real-time order tracking and detailed analytics.",
+      "description": "Multi tenant Laravel backend and React dashboards for e-commerce logistics.",
+      "longDescription": "Architected a multi tenant Laravel backend with Role Based Access Control (RBAC) to orchestrate complex e-commerce order and shipment logistics. Developed interactive React dashboards for real time order tracking and detailed analytics.",
       "technologies": ["Laravel", "React", "Tailwind CSS", "RBAC"],
       "github": "https://github.com/example/juragan-cod",
-      "strengths": ["Multi-tenant Architecture", "RBAC Systems", "Logistics Tracking"],
+      "strengths": ["Multi tenant Architecture", "RBAC Systems", "Logistics Tracking"],
       "strength_descriptions": [
-        "Designed a multi-tenant architecture to support multiple clients with isolated data and configurations.",
-        "Implemented Role-Based Access Control (RBAC) to ensure secure and efficient user permissions management.",
-        "Developed real-time logistics tracking features to provide up-to-date information on order statuses and shipment progress."
+        "Designed a multi tenant architecture to support multiple clients with isolated data and configurations.",
+        "Implemented Role Based Access Control (RBAC) to ensure secure and efficient user permissions management.",
+        "Developed real time logistics tracking features to provide up to date information on order statuses and shipment progress."
       ]
     }
   ],
