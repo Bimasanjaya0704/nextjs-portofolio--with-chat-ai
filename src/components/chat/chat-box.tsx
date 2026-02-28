@@ -103,9 +103,9 @@ export default function ChatBox({ isOpen, onToggle }: ChatBoxProps) {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
           onClick={onToggle}
-          className="fixed bottom-8 cursor-pointer right-8 w-14 h-14 md:w-16 md:h-16 rounded-2xl bg-primary text-primary-foreground shadow-2xl shadow-primary/30 flex items-center justify-center z-50 group"
+          className="fixed bottom-8 cursor-pointer right-8 w-10 h-10 md:w-16 md:h-16 rounded-2xl bg-primary text-primary-foreground shadow-2xl shadow-primary/30 flex items-center justify-center z-50 group"
         >
-          <FiMessageSquare className="w-6 h-6 md:w-8 md:h-8 group-hover:rotate-12 transition-transform" />
+          <FiMessageSquare className="w-4 h-4 md:w-8 md:h-8 group-hover:rotate-12 transition-transform" />
         </motion.button>
       )}
 
