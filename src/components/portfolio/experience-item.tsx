@@ -5,10 +5,12 @@ interface ExperienceItemProps {
   experience: Experience;
 }
 
-export const ExperienceItem: React.FC<ExperienceItemProps> = ({ experience }) => {
+export const ExperienceItem: React.FC<ExperienceItemProps> = ({
+  experience,
+}) => {
   return (
-    <div className="relative pl-8 before:absolute before:left-0 before:top-2 before:h-full before:w-[2px] before:bg-border last:before:h-8">
-      <div className="absolute left-[-4px] top-2 h-2 w-2 rounded-full bg-primary" />
+    <div className="relative pl-8 before:absolute before:left-0 before:top-2 before:h-full before:w-0.5 before:bg-border last:before:h-8">
+      <div className="absolute -left-1 top-2 h-2 w-2 rounded-full bg-primary" />
       <div className="flex flex-col gap-1 mb-4">
         <h3 className="text-xl font-bold">{experience.position}</h3>
         <div className="flex flex-wrap items-center justify-between gap-2">

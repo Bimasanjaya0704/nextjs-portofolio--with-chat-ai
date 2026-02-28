@@ -33,7 +33,6 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
         <Button
           variant="ghost"
           className="rounded-full text-xs md:text-sm gap-2 md:font-bold hover:text-primary hover:bg-primary/5"
-          asChild
         >
           <Link
             href={`/projects/${project.slug}`}

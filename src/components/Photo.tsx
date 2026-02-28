@@ -12,13 +12,13 @@ const Photo = () => {
         animate={{
           opacity: 1,
           transition: {
-            delay: 2.2,
+            delay: 0.4,
             duration: 0.4,
             ease: "easeInOut",
           },
         }}
       >
-        <div className="w-[230px] h-[230px] md:h-[440] md:w-[440] 2xl:w-[500px] 2xl:h-[500px] dark:mix-blend-lighten absolute">
+        <div className="w-57.5 h-57.5 md:h-[440] md:w-[440] 2xl:w-125 2xl:h-125 dark:mix-blend-lighten absolute">
           <Image
             src={photo}
             priority
@@ -31,7 +31,7 @@ const Photo = () => {
 
         {/* Circle */}
         <motion.svg
-          className="w-[230px] md:w-[440] h-[230px] md:h-[440] 2xl:w-[500px] 2xl:h-[500px]"
+          className="w-57.5 md:w-[440] h-57.5 md:h-[440] 2xl:w-125 2xl:h-125"
           fill="transparent"
           viewBox="0 0 506 506"
           xmlns="http://www.w3.org/2000/svg"
