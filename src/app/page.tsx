@@ -9,7 +9,6 @@ import {
   FiDownload,
   FiArrowRight,
   FiMessageSquare,
-  FiSend,
   FiUser,
   FiZap,
   FiCode,
@@ -17,8 +16,11 @@ import {
 import Photo from "@/components/Photo";
 import TextType from "@/components/TextType";
 import { ProjectCard } from "@/components/portfolio/project-card";
+import ChatBox from "@/components/chat/chat-box";
+import { useState } from "react";
 
 export default function Home() {
+  const [isChatOpen, setIsChatOpen] = useState(false);
   const featuredProjects = portfolioData.projects.slice(0, 3);
 
   return (
@@ -172,7 +174,10 @@ export default function Home() {
               random thoughts, let&apos;s connect with my AI persona!
             </p>
           </div>
-          <Button className="rounded-full cursor-not-allowed md:px-8 md:h-14 text-sm md:text-lg font-bold gap-3 shadow-xl shadow-primary/20 shrink-0">
+          <Button
+            onClick={() => setIsChatOpen(true)}
+            className="rounded-full md:px-8 md:h-14 cursor-pointer hover:-translate-y-1.5 transition-all duration-300 text-sm md:text-lg font-bold gap-3 shadow-xl shadow-primary/20 shrink-0"
+          >
             Talk to AI <FiArrowRight />
           </Button>
         </div>
@@ -231,6 +236,10 @@ export default function Home() {
           </p>
         </div>
       </section>
+      <ChatBox
+        isOpen={isChatOpen}
+        onToggle={() => setIsChatOpen(!isChatOpen)}
+      />
     </div>
   );
 }

@@ -61,13 +61,6 @@ export default function Navbar() {
           ))}
           <div className="h-4 w-px bg-border/60 mx-1" />
           <ThemeToggle />
-          <Button
-            size="sm"
-            className="rounded-full gap-2 px-5 cursor-not-allowed shadow-sm hover:shadow-md transition-all active:scale-95 bg-primary hover:bg-primary/90"
-          >
-            <MessageSquare className="w-4 h-4" />
-            Teman Curhat
-          </Button>
         </nav>
 
         {/* Mobile Menu Toggle */}
@@ -107,15 +100,6 @@ export default function Navbar() {
                 <div className="w-1.5 h-1.5 rounded-full bg-primary scale-0 group-hover:scale-100 transition-transform" />
               </Link>
             ))}
-            <div className="pt-4 mt-2">
-              <Button
-                className="w-full gap-3 md:py-6 text-sm cursor-not-allowed md:text-lg rounded-2xl hover:scale-105 shadow-lg shadow-primary/10 active:scale-[0.98] transition-all"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                <MessageSquare className="md:w-5 md:h-5" />
-                Teman Curhat
-              </Button>
-            </div>
           </nav>
         </div>
       </header>
